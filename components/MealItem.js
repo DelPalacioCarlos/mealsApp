@@ -1,6 +1,6 @@
 import { View, Text, Image, Pressable, StyleSheet, Platform } from "react-native";
 import { useNavigation} from '@react-navigation/native'
-import MealDetails from "./MealDetails"
+import MealDetails from "./MealDetails";
 
 function MealDetails({ id, title, imageUrl, duration, complexty, affordatibility }){
     console.log('title', title)
@@ -13,7 +13,7 @@ function MealDetails({ id, title, imageUrl, duration, complexty, affordatibility
     }
 
     return(
-        <View style={Styles.mealItem}>
+        <View style={styles.mealItem}>
             <Pressable
             android_ripple={{color: '#ccc'}}
             style={({ pressed }) => (pressed ? styles.buttonPressed: null) }
