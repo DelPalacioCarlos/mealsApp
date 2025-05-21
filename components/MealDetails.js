@@ -4,24 +4,25 @@ function MealDetails({duration, complexity, affordability}){
     return(
 
         <View style={styles.details}>
-            <Text style={styles.detailsItem}>{duration}</Text>
-            <Text style={styles.detailsItem}>{complexity.toUpperCase()}</Text>
-            <Text style={styles.detailsItem}>{affordability.toUpperCase()}</Text>
+            <Text style={styles.detailItem}>{duration}</Text>
+            <Text style={styles.detailItem}>{complexity.toUpperCase()}</Text>
+            <Text style={styles.detailItem}>{affordability.toUpperCase()}</Text>
         </View>
     )
+
 }
 
 export default MealDetails
 
 const styles = StyleSheet.create({
-    details:{
+    details: {
         flexDirection: 'row',
-        flexDirection: 'center',
-        jutifyContent: 'center',
+        alignItems: 'center', 
+        justifyContent: 'center',
         padding: 8
     },
-    detailsItem:{
-        marginHorizotal: 4,
+    detailItem: {
+        marginHorizontal: 4,
         fontSize: 12
     }
 })
