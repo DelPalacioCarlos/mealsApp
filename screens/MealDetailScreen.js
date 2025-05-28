@@ -17,10 +17,10 @@ function MealDetailScree({route, navigation}) {
                 complexity={selectedMeal.complexity}
                 affordability={selectedMeal.affordability}
             />
-            <View>
-                <Text style={styles.subtitle}>Ingredients</Text>
+            <View style={styles.backgroundContent}>
+                <Text style={styles.subtitle}>HISTORIA</Text>
                 {selectedMeal.ingredients.map(ingredients => <Text style={styles.textContent} key={ingredients}>{ingredients}</Text>)}
-                <Text style={styles.subtitle}>Steps</Text>
+                <Text style={styles.subtitle}>Datos</Text>
                 {selectedMeal.steps.map(step => <Text style={styles.textContent} key={step}>{step}</Text>)}
             </View>
         </ScrollView>
@@ -31,11 +31,14 @@ function MealDetailScree({route, navigation}) {
 export default MealDetailScree
 
 const styles = StyleSheet.create({
+    
     image: {
         width: '100%',
         height: 350
+        
     },
     title: {
+        backgroundColor: '#009975',
         fontWeight: 'bold',
         fontSize: 24,
         margin: 8,
@@ -50,13 +53,17 @@ const styles = StyleSheet.create({
         marginVertical: 4,
         textAlign: 'center',
         borderBottomColor: 'black',
-        borderBottomWidth: 1
+        borderBottomWidth: 1,
     },
     textContent: {
+        textAlign: 'flex',
         fontSize: 14,
         margin: 4,
         marginVertical: 3,
-        marginHorizontal: 24    
+        marginHorizontal: 24,
+    },
+    backgroundContent: {
+        backgroundColor: '#DC143C'
     }
 
 

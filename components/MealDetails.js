@@ -16,6 +16,7 @@ export default MealDetails
 
 const styles = StyleSheet.create({
     details: {
+        backgroundColor: '#393D42',
         flexDirection: 'row',
         alignItems: 'center', 
         justifyContent: 'center',

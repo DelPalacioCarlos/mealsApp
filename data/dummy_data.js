@@ -2,10 +2,10 @@ import Category from '../models/category';
 import Meal from '../models/meal';
 
 export const CATEGORIES = [
-  new Category('c1', 'FERRARI', '#000','https://c0.klipartz.com/pngpicture/224/949/gratis-png-logotipo-de-ferrari-laferrari-car-museo-ferrari-enzo-ferrari-ferrari-thumbnail.png'),
-  new Category('c2', 'LAMBORGINI', '#f54242'),
-  new Category('c3', 'TOYOTA', '#f5a442'),
-  new Category('c4', 'NISSAN', '#f5d142'),
+  new Category('c1', '', '','https://1000marcas.net/wp-content/uploads/2019/12/Ferrari-Logo.png'),
+  new Category('c2', '', '','https://static.vecteezy.com/system/resources/previews/020/502/472/non_2x/lamborghini-brand-logo-car-symbol-white-design-italian-automobile-illustration-with-black-background-free-vector.jpg'),
+  new Category('c3', '', '','https://static.vecteezy.com/system/resources/previews/020/927/378/non_2x/toyota-brand-logo-car-symbol-with-name-black-design-japan-automobile-illustration-free-vector.jpg'),
+  new Category('c4', '', '','https://s0.smartresize.com/wallpaper/817/465/HD-wallpaper-nissan-logo-logo-nissan-thumbnail.jpg'),
   new Category('c5', 'BMW', '#368dff'),
   new Category('c6', 'AUDI', '#41d95d'),
 
@@ -14,28 +14,25 @@ export const CATEGORIES = [
 export const MEALS = [
   new Meal(
     'm1',
-    ['c1', 'c2'],
-    'Spaghetti with Tomato Sauce',
-    'affordable',
-    'simple',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
-    20,
+    ['c1', ],
+    'Ferrari es una de las marcas más emblemáticas en la industria automotriz,',
+    'Ferrari',
+    'se fabrico',
+    'https://i.pinimg.com/736x/be/58/56/be58562e9797263b5670edf49e0f9f6d.jpg',
+    1947,
     [
-      '4 Tomatoes',
-      '1 Tablespoon of Olive Oil',
-      '1 Onion',
-      '250g Spaghetti',
-      'Spices',
-      'Cheese (optional)'
+      'Ferrari es una de las marcas más emblemáticas en la industria automotriz',
+      'conocida por su lujo, alto rendimiento y éxito en el mundo de las carreras. La',
+      'historia de Ferrari comenzó en 1939, cuando Enzo Ferrari fundó Auto Avio',
+      'Costruzioni en Módena, Italia. Enzo era un ex piloto de carreras que decidió crear',
+      'su propia escudería, inicialmente construyendo autos de carreras para otros',
+      'fabricantes.',
+     
     ],
     [
-      'Cut the tomatoes and the onion into small pieces.',
-      'Boil some water - add salt to it once it boils.',
-      'Put the spaghetti into the boiling water - they should be done in about 10 to 12 minutes.',
-      'In the meantime, heaten up some olive oil and add the cut onion.',
-      'After 2 minutes, add the tomato pieces, salt, pepper and your other spices.',
-      'The sauce will be done once the spaghetti are.',
-      'Feel free to add some cheese on top of the finished dish.'
+      'El modelo más comprado de Lamborghini en los últimos años es el Lamborghini Huracán, un superdeportivo que combina una increíble potencia con un diseño moderno y agresivo. Ha sido un éxito tanto en la pista como en la carretera. ',
+      'Lamborghini Huracán: Este auto se lanzó en 2014 como sucesor del Gallardo (el modelo más vendido de Lamborghini antes del Huracán). Viene con un motor V10 de 5.2 litros, produciendo entre 610 y 640 caballos de fuerza dependiendo de la variante (Huracán EVO, Huracán Performante). Acelera de 0 a 100 km/h en aproximadamente 2.9 segundos. Precio: El precio base del Huracán es de $220,000 USD, pero dependiendo de la personalización, este puede superar los $250,000 USD.'
+      
     ],
     false,
     true,
