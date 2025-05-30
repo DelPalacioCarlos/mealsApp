@@ -16,14 +16,17 @@ export default MealDetails
 
 const styles = StyleSheet.create({
     details: {
-        backgroundColor: '#393D42',
+        backgroundColor: '#0E2C40',
         flexDirection: 'row',
         alignItems: 'center', 
         justifyContent: 'center',
         padding: 8
+        
     },
     detailItem: {
         marginHorizontal: 4,
-        fontSize: 12
-    }
+        fontSize: 12,
+        color: 'white'
+    },
+    
 })

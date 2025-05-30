@@ -38,11 +38,13 @@ const styles = StyleSheet.create({
         
     },
     title: {
-        backgroundColor: '#009975',
+        backgroundColor: '#393D42',
         fontWeight: 'bold',
         fontSize: 24,
         margin: 8,
-        textAlign: 'center'
+        textAlign: 'center',
+        color:'white',
+        
     },
     subtitle: {
         fontSize: 20,
@@ -52,7 +54,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 24,
         marginVertical: 4,
         textAlign: 'center',
-        borderBottomColor: 'black',
+        borderBottomColor: 'white',
         borderBottomWidth: 1,
     },
     textContent: {
@@ -61,9 +63,10 @@ const styles = StyleSheet.create({
         margin: 4,
         marginVertical: 3,
         marginHorizontal: 24,
+        color: 'white'
     },
     backgroundContent: {
-        backgroundColor: '#DC143C'
+        backgroundColor: '#393D42'
     }
 
 
